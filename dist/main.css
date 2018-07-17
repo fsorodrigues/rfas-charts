@@ -2,6 +2,16 @@
     width: 66%;
 }
 
+#firms-networks-tooltip,
+#firms-networks-2-tooltip {
+    background-color: gainsboro;
+    border-radius: 0.2rem;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+    position:absolute;
+    pointer-events: none;
+}
+
 #firms-networks-2,
 #sectors-top25 {
     min-height: 600px;
@@ -31,7 +41,8 @@ svg {
 
 .wrapper {
     margin: 10% 5%;
-    width:80%;
+    /* position: relative; */
+    width:100%;
 }
 
 html {
