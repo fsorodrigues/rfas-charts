@@ -1,3 +1,7 @@
+.content {
+    width: 66%;
+}
+
 #firms-networks-2,
 #sectors-top25 {
     min-height: 600px;
