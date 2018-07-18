@@ -1,3 +1,7 @@
+.test {
+    height: 500px;
+}
+
 .content {
     width: 66%;
 }
@@ -7,9 +11,12 @@
     background-color: gainsboro;
     border-radius: 0.2rem;
     font-size: 0.7rem;
-    padding: 0.5rem 1rem;
     position:absolute;
     pointer-events: none;
+}
+
+.info-entity {
+    margin: 0.5rem 1rem;
 }
 
 #firms-networks-2,
