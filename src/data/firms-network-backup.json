@@ -1,0 +1,3062 @@
+{
+    "data": [
+        {
+        "firm":"MMR",
+        "nodes": [
+            {
+            "entity":"MMR",
+            "group":"firm"
+            },
+            {
+            "entity":"Alcohol",
+            "group":"issue"
+            },
+            {
+            "entity":"Bank/Finance",
+            "group":"issue"
+            },
+            {
+            "entity":"Business",
+            "group":"issue"
+            },
+            {
+            "entity":"Civil/Criminal Justice",
+            "group":"issue"
+            },
+            {
+            "entity":"Education",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Environment",
+            "group":"issue"
+            },
+            {
+            "entity":"Gaming",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Insurance",
+            "group":"issue"
+            },
+            {
+            "entity":"Marijuana",
+            "group":"issue"
+            },
+            {
+            "entity":"Non-alcoholic beverages",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Pharmaceuticals",
+            "group":"issue"
+            },
+            {
+            "entity":"Real Estate",
+            "group":"issue"
+            },
+            {
+            "entity":"Retail",
+            "group":"issue"
+            },
+            {
+            "entity":"Ski Industry",
+            "group":"issue"
+            },
+            {
+            "entity":"Telecommunications",
+            "group":"issue"
+            },
+            {
+            "entity":"Tobacco",
+            "group":"issue"
+            },
+            {
+            "entity":"Transportation",
+            "group":"issue"
+            },
+            {
+            "entity":"Veterinary",
+            "group":"issue"
+            },
+            {
+            "entity": "Abbott",
+            "group": "employer"
+            },
+            {
+            "entity": "American Council of Life Insurers",
+            "group": "employer"
+            },
+            {
+            "entity": "American Express",
+            "group": "employer"
+            },
+            {
+            "entity": "American Family Life Assurance Company",
+            "group": "employer"
+            },
+            {
+            "entity": "AMTA-VT",
+            "group": "employer"
+            },
+            {
+            "entity": "ArcLight Capital Partners, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "AstraZeneca Pharmaceuticals, LP",
+            "group": "employer"
+            },
+            {
+            "entity": "BAYADA Home Health Care",
+            "group": "employer"
+            },
+            {
+            "entity": "Beacon Information Designs, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Beverage Association of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Biotechnology Innovation Organization",
+            "group": "employer"
+            },
+            {
+            "entity": "Blue Cross and Blue Shield of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Burr and Burton Academy",
+            "group": "employer"
+            },
+            {
+            "entity": "Burton Snowboards",
+            "group": "employer"
+            },
+            {
+            "entity": "Cabot Creamery",
+            "group": "employer"
+            },
+            {
+            "entity": "Centurion of Vermont, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Cigar Association of America, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Cisco Systems, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Consumer Healthcare Products Association",
+            "group": "employer"
+            },
+            {
+            "entity": "CoreCivic",
+            "group": "employer"
+            },
+            {
+            "entity": "Deloitte Consulting LLP",
+            "group": "employer"
+            },
+            {
+            "entity": "DIRECTV, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "DISH Network L.L.C.",
+            "group": "employer"
+            },
+            {
+            "entity": "DraftKings, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Dunkin' Brands, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Entertainment Software Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Exxon Mobil Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "FanDuel, Inc",
+            "group": "employer"
+            },
+            {
+            "entity": "Genesis HealthCare",
+            "group": "employer"
+            },
+            {
+            "entity": "Global Montello Group Corp.",
+            "group": "employer"
+            },
+            {
+            "entity": "Great River Hydro",
+            "group": "employer"
+            },
+            {
+            "entity": "Green Mountain Clean Energy, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Green Mountain Power",
+            "group": "employer"
+            },
+            {
+            "entity": "Indivior, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "International Association of Amusement Parks and Attractions (IAAPA)",
+            "group": "employer"
+            },
+            {
+            "entity": "Intralot, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Johnson & Johnson",
+            "group": "employer"
+            },
+            {
+            "entity": "LKQ, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Master Limited Partnership Association (MLPA)",
+            "group": "employer"
+            },
+            {
+            "entity": "MAXIMUS",
+            "group": "employer"
+            },
+            {
+            "entity": "Microsoft",
+            "group": "employer"
+            },
+            {
+            "entity": "Middlebury College",
+            "group": "employer"
+            },
+            {
+            "entity": "MillerCoors LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "MindCare Solutions Group, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "National Grid USA Service Company, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "National Strategies, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "NextEra Energy Resources, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Omya, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Pharmaceutical Research and Manufacturers of America",
+            "group": "employer"
+            },
+            {
+            "entity": "Pine State Trading Co.",
+            "group": "employer"
+            },
+            {
+            "entity": "Pomerleau Real Estate",
+            "group": "employer"
+            },
+            {
+            "entity": "Procter & Gamble",
+            "group": "employer"
+            },
+            {
+            "entity": "RAI Services, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Recreation Vehicle Industry Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Soundview Paper Co.",
+            "group": "employer"
+            },
+            {
+            "entity": "St. Johnsbury Academy",
+            "group": "employer"
+            },
+            {
+            "entity": "Sunovion Pharmaceuticals Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Uber Technologies, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vail Resorts Management Company",
+            "group": "employer"
+            },
+            {
+            "entity": "VELCO",
+            "group": "employer"
+            },
+            {
+            "entity": "Verizon",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Apartment Owners Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association of Hospitals and Health Systems, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association of Investigative and Security Systems",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Education Health Care Initiative (VEHI)",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Electric Coop",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Gas Systems, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Golf Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Green Mountain Growers, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Health Care Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Information Technology Leaders",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Mortgage Bankers Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Realtors",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont State Dental Society",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Veterinary Medical Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vertex Pharmaceuticals Incorporated",
+            "group": "employer"
+            },
+            {
+            "entity": "Walmart Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "WCAX",
+            "group": "employer"
+            },
+            {
+            "entity": "Welltower, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Workday, Inc.",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Alcohol",
+            "source": "MMR"
+            },
+            {
+            "target": "Bank/Finance",
+            "source": "MMR"
+            },
+            {
+            "target": "Business",
+            "source": "MMR"
+            },
+            {
+            "target": "Civil/Criminal Justice",
+            "source": "MMR"
+            },
+            {
+            "target": "Education",
+            "source": "MMR"
+            },
+            {
+            "target": "Energy",
+            "source": "MMR"
+            },
+            {
+            "target": "Environment",
+            "source": "MMR"
+            },
+            {
+            "target": "Gaming",
+            "source": "MMR"
+            },
+            {
+            "target": "Health Care",
+            "source": "MMR"
+            },
+            {
+            "target": "Insurance",
+            "source": "MMR"
+            },
+            {
+            "target": "Marijuana",
+            "source": "MMR"
+            },
+            {
+            "target": "Non-alcoholic beverages",
+            "source": "MMR"
+            },
+            {
+            "target": "Other",
+            "source": "MMR"
+            },
+            {
+            "target": "Pharmaceuticals",
+            "source": "MMR"
+            },
+            {
+            "target": "Real Estate",
+            "source": "MMR"
+            },
+            {
+            "target": "Retail",
+            "source": "MMR"
+            },
+            {
+            "target": "Ski Industry",
+            "source": "MMR"
+            },
+            {
+            "target": "Telecommunications",
+            "source": "MMR"
+            },
+            {
+            "target": "Tobacco",
+            "source": "MMR"
+            },
+            {
+            "target": "Transportation",
+            "source": "MMR"
+            },
+            {
+            "target": "Veterinary",
+            "source": "MMR"
+            },
+            {
+            "target": "MillerCoors LLC",
+            "source": "Alcohol"
+            },
+            {
+            "target": "Pine State Trading Co.",
+            "source": "Alcohol"
+            },
+            {
+            "target": "American Express",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "ArcLight Capital Partners, LLC",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Vermont Mortgage Bankers Association",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Master Limited Partnership Association (MLPA)",
+            "source": "Business"
+            },
+            {
+            "target": "CoreCivic",
+            "source": "Civil/Criminal Justice"
+            },
+            {
+            "target": "Burr and Burton Academy",
+            "source": "Education"
+            },
+            {
+            "target": "Middlebury College",
+            "source": "Education"
+            },
+            {
+            "target": "St. Johnsbury Academy",
+            "source": "Education"
+            },
+            {
+            "target": "Exxon Mobil Corporation",
+            "source": "Energy"
+            },
+            {
+            "target": "Global Montello Group Corp.",
+            "source": "Energy"
+            },
+            {
+            "target": "Great River Hydro",
+            "source": "Energy"
+            },
+            {
+            "target": "Green Mountain Clean Energy, LLC",
+            "source": "Energy"
+            },
+            {
+            "target": "Green Mountain Power",
+            "source": "Energy"
+            },
+            {
+            "target": "National Grid USA Service Company, Inc.",
+            "source": "Energy"
+            },
+            {
+            "target": "NextEra Energy Resources, LLC",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Electric Coop",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Gas Systems, Inc.",
+            "source": "Energy"
+            },
+            {
+            "target": "Omya, Inc.",
+            "source": "Environment"
+            },
+            {
+            "target": "DraftKings, Inc.",
+            "source": "Gaming"
+            },
+            {
+            "target": "FanDuel, Inc",
+            "source": "Gaming"
+            },
+            {
+            "target": "Intralot, Inc.",
+            "source": "Gaming"
+            },
+            {
+            "target": "AMTA-VT",
+            "source": "Health Care"
+            },
+            {
+            "target": "BAYADA Home Health Care",
+            "source": "Health Care"
+            },
+            {
+            "target": "Biotechnology Innovation Organization",
+            "source": "Health Care"
+            },
+            {
+            "target": "Blue Cross and Blue Shield of Vermont",
+            "source": "Health Care"
+            },
+            {
+            "target": "Consumer Healthcare Products Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Genesis HealthCare",
+            "source": "Health Care"
+            },
+            {
+            "target": "Indivior, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "MAXIMUS",
+            "source": "Health Care"
+            },
+            {
+            "target": "MindCare Solutions Group, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Pharmaceutical Research and Manufacturers of America",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Association of Hospitals and Health Systems, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Education Health Care Initiative (VEHI)",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Health Care Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont State Dental Society",
+            "source": "Health Care"
+            },
+            {
+            "target": "American Council of Life Insurers",
+            "source": "Insurance"
+            },
+            {
+            "target": "American Family Life Assurance Company",
+            "source": "Insurance"
+            },
+            {
+            "target": "Vermont Green Mountain Growers, LLC",
+            "source": "Marijuana"
+            },
+            {
+            "target": "Beacon Information Designs, LLC",
+            "source": "Marijuana"
+            },
+            {
+            "target": "Beverage Association of Vermont",
+            "source": "Non-alcoholic beverages"
+            },
+            {
+            "target": "Cabot Creamery",
+            "source": "Other"
+            },
+            {
+            "target": "Centurion of Vermont, LLC",
+            "source": "Other"
+            },
+            {
+            "target": "Dunkin' Brands, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Entertainment Software Association",
+            "source": "Other"
+            },
+            {
+            "target": "International Association of Amusement Parks and Attractions (IAAPA)",
+            "source": "Other"
+            },
+            {
+            "target": "LKQ, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Microsoft",
+            "source": "Other"
+            },
+            {
+            "target": "National Strategies, LLC",
+            "source": "Other"
+            },
+            {
+            "target": "Procter & Gamble",
+            "source": "Other"
+            },
+            {
+            "target": "Recreation Vehicle Industry Association, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Soundview Paper Co.",
+            "source": "Other"
+            },
+            {
+            "target": "VELCO",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Association of Investigative and Security Systems",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Golf Association",
+            "source": "Other"
+            },
+            {
+            "target": "Workday, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Abbott",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "AstraZeneca Pharmaceuticals, LP",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Johnson & Johnson",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Sunovion Pharmaceuticals Inc.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Vertex Pharmaceuticals Incorporated",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Pomerleau Real Estate",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Vermont Apartment Owners Association",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Vermont Realtors",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Welltower, Inc.",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Walmart Inc.",
+            "source": "Retail"
+            },
+            {
+            "target": "Burton Snowboards",
+            "source": "Ski Industry"
+            },
+            {
+            "target": "Vail Resorts Management Company",
+            "source": "Ski Industry"
+            },
+            {
+            "target": "Cisco Systems, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Deloitte Consulting LLP",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "DIRECTV, LLC",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "DISH Network L.L.C.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Verizon",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Vermont Information Technology Leaders",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "WCAX",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Cigar Association of America, Inc.",
+            "source": "Tobacco"
+            },
+            {
+            "target": "RAI Services, Inc.",
+            "source": "Tobacco"
+            },
+            {
+            "target": "Uber Technologies, Inc.",
+            "source": "Transportation"
+            },
+            {
+            "target": "Vermont Veterinary Medical Association",
+            "source": "Veterinary"
+            }
+
+        ]},
+
+        {
+        "firm":"Necrason",
+        "nodes": [
+            {
+            "entity":"Necrason",
+            "group":"firm"
+            },
+            {
+            "entity":"Agriculture",
+            "group":"issue"
+            },
+            {
+            "entity":"Alcohol",
+            "group":"issue"
+            },
+            {
+            "entity":"Bank/Finance",
+            "group":"issue"
+            },
+            {
+            "entity":"Children & Youth",
+            "group":"issue"
+            },
+            {
+            "entity":"Civil/Criminal Justice",
+            "group":"issue"
+            },
+            {
+            "entity":"Education",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Elderly",
+            "group":"issue"
+            },
+            {
+            "entity":"Environment",
+            "group":"issue"
+            },
+            {
+            "entity":"Government/Public Affairs",
+            "group":"issue"
+            },
+            {
+            "entity":"Gun",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Housing",
+            "group":"issue"
+            },
+            {
+            "entity":"Insurance",
+            "group":"issue"
+            },
+            {
+            "entity":"Labor Unions",
+            "group":"issue"
+            },
+            {
+            "entity":"Manufacturing",
+            "group":"issue"
+            },
+            {
+            "entity":"Marijuana",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Real Estate",
+            "group":"issue"
+            },
+            {
+            "entity":"Retail",
+            "group":"issue"
+            },
+            {
+            "entity":"Telecommunications",
+            "group":"issue"
+            },
+            {
+            "entity": "American Heart Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American Society for the Prevention of Cruelty to Animals",
+            "group": "employer"
+            },
+            {
+            "entity": "Association of Perioperative Registered Nurses",
+            "group": "employer"
+            },
+            {
+            "entity": "Association of Vermont Credit Unions",
+            "group": "employer"
+            },
+            {
+            "entity": "Bi-State Primary Care Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Champlain VT, LLC d/b/a TDI New England",
+            "group": "employer"
+            },
+            {
+            "entity": "Comcast",
+            "group": "employer"
+            },
+            {
+            "entity": "Community of Vermont Elders",
+            "group": "employer"
+            },
+            {
+            "entity": "Community Organizations in Action",
+            "group": "employer"
+            },
+            {
+            "entity": "Compassion & Choices",
+            "group": "employer"
+            },
+            {
+            "entity": "Drug Policy Alliance",
+            "group": "employer"
+            },
+            {
+            "entity": "Everytown for Gun Safety Action Fund",
+            "group": "employer"
+            },
+            {
+            "entity": "First American Title Insurance Co.",
+            "group": "employer"
+            },
+            {
+            "entity": "Forest Partnership",
+            "group": "employer"
+            },
+            {
+            "entity": "GunSense Vermont, Inc",
+            "group": "employer"
+            },
+            {
+            "entity": "Healthfirst, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Housing Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "iGPS Logistics LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Let's Grow Kids",
+            "group": "employer"
+            },
+            {
+            "entity": "Marijuana Policy Project",
+            "group": "employer"
+            },
+            {
+            "entity": "National Strategies, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Optum, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Patient Choices at End of Life - Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "People For Acupuncture, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Personal Care Products Council",
+            "group": "employer"
+            },
+            {
+            "entity": "Preservation Trust of Vermont, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Renewable Energy Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Snyder Braverman Development Company, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "The University of Vermont Health Network",
+            "group": "employer"
+            },
+            {
+            "entity": "United Nurses & Allied Professionals",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Acupuncture Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association for Justice",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association of Planning and Development Agencies",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association of Public Housing Directors",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Brewers Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Building & Construction Trades Council",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Chapter of the Sierra Club",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Chiropractic Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Council on Rural Development",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Energy Investment Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Head Start Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Housing and Conservation Coalition",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Natural Resources Council",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Public Interest Research Group",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Solid Waste District Manager's Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Troopers' Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "VERMONT-NEA",
+            "group": "employer"
+            },
+            {
+            "entity": "Voices for Vermont's Children",
+            "group": "employer"
+            },
+            {
+            "entity": "Working Lands Coalition",
+            "group": "employer"
+            },
+            {
+            "entity": "Working Vermont",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Agriculture",
+            "source": "Necrason"
+            },
+            {
+            "target": "Alcohol",
+            "source": "Necrason"
+            },
+            {
+            "target": "Bank/Finance",
+            "source": "Necrason"
+            },
+            {
+            "target": "Children & Youth",
+            "source": "Necrason"
+            },
+            {
+            "target": "Civil/Criminal Justice",
+            "source": "Necrason"
+            },
+            {
+            "target": "Education",
+            "source": "Necrason"
+            },
+            {
+            "target": "Elderly",
+            "source": "Necrason"
+            },
+            {
+            "target": "Energy",
+            "source": "Necrason"
+            },
+            {
+            "target": "Environment",
+            "source": "Necrason"
+            },
+            {
+            "target": "Government/Public Affairs",
+            "source": "Necrason"
+            },
+            {
+            "target": "Gun",
+            "source": "Necrason"
+            },
+            {
+            "target": "Health Care",
+            "source": "Necrason"
+            },
+            {
+            "target": "Housing",
+            "source": "Necrason"
+            },
+            {
+            "target": "Insurance",
+            "source": "Necrason"
+            },
+            {
+            "target": "Labor Unions",
+            "source": "Necrason"
+            },
+            {
+            "target": "Manufacturing",
+            "source": "Necrason"
+            },
+            {
+            "target": "Marijuana",
+            "source": "Necrason"
+            },
+            {
+            "target": "Other",
+            "source": "Necrason"
+            },
+            {
+            "target": "Real Estate",
+            "source": "Necrason"
+            },
+            {
+            "target": "Retail",
+            "source": "Necrason"
+            },
+            {
+            "target": "Telecommunications",
+            "source": "Necrason"
+            },
+            {
+            "target": "Vermont Council on Rural Development",
+            "source": "Agriculture"
+            },
+            {
+            "target": "Working Lands Coalition",
+            "source": "Agriculture"
+            },
+            {
+            "target": "Vermont Brewers Association, Inc.",
+            "source": "Alcohol"
+            },
+            {
+            "target": "Association of Vermont Credit Unions",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Let's Grow Kids",
+            "source": "Children & Youth"
+            },
+            {
+            "target": "Voices for Vermont's Children",
+            "source": "Children & Youth"
+            },
+            {
+            "target": "Drug Policy Alliance",
+            "source": "Civil/Criminal Justice"
+            },
+            {
+            "target": "Vermont Association for Justice",
+            "source": "Civil/Criminal Justice"
+            },
+            {
+            "target": "Vermont Head Start Association",
+            "source": "Education"
+            },
+            {
+            "target": "VERMONT-NEA",
+            "source": "Education"
+            },
+            {
+            "target": "Community of Vermont Elders",
+            "source": "Elderly"
+            },
+            {
+            "target": "Renewable Energy Vermont",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Energy Investment Corporation",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Natural Resources Council",
+            "source": "Energy"
+            },
+            {
+            "target": "American Society for the Prevention of Cruelty to Animals",
+            "source": "Environment"
+            },
+            {
+            "target": "Champlain VT, LLC d/b/a TDI New England",
+            "source": "Environment"
+            },
+            {
+            "target": "Forest Partnership",
+            "source": "Environment"
+            },
+            {
+            "target": "Vermont Chapter of the Sierra Club",
+            "source": "Environment"
+            },
+            {
+            "target": "Vermont Solid Waste District Manager's Association",
+            "source": "Environment"
+            },
+            {
+            "target": "Vermont Association of Planning and Development Agencies",
+            "source": "Government/Public Affairs"
+            },
+            {
+            "target": "Vermont Public Interest Research Group",
+            "source": "Government/Public Affairs"
+            },
+            {
+            "target": "Everytown for Gun Safety Action Fund",
+            "source": "Gun"
+            },
+            {
+            "target": "GunSense Vermont, Inc",
+            "source": "Gun"
+            },
+            {
+            "target": "American Heart Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Association of Perioperative Registered Nurses",
+            "source": "Health Care"
+            },
+            {
+            "target": "Bi-State Primary Care Association, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Healthfirst, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Optum, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Patient Choices at End of Life - Vermont",
+            "source": "Health Care"
+            },
+            {
+            "target": "People For Acupuncture, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "The University of Vermont Health Network",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Acupuncture Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Chiropractic Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Housing Vermont",
+            "source": "Housing"
+            },
+            {
+            "target": "Vermont Association of Public Housing Directors",
+            "source": "Housing"
+            },
+            {
+            "target": "Vermont Housing and Conservation Coalition",
+            "source": "Housing"
+            },
+            {
+            "target": "First American Title Insurance Co.",
+            "source": "Insurance"
+            },
+            {
+            "target": "United Nurses & Allied Professionals",
+            "source": "Labor Unions"
+            },
+            {
+            "target": "Working Vermont",
+            "source": "Labor Unions"
+            },
+            {
+            "target": "iGPS Logistics LLC",
+            "source": "Manufacturing"
+            },
+            {
+            "target": "Marijuana Policy Project",
+            "source": "Marijuana"
+            },
+            {
+            "target": "Community Organizations in Action",
+            "source": "Other"
+            },
+            {
+            "target": "Compassion & Choices",
+            "source": "Other"
+            },
+            {
+            "target": "National Strategies, LLC",
+            "source": "Other"
+            },
+            {
+            "target": "Preservation Trust of Vermont, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Building & Construction Trades Council",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Troopers' Association, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Snyder Braverman Development Company, LLC",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Personal Care Products Council",
+            "source": "Retail"
+            },
+            {
+            "target": "Comcast",
+            "source": "Telecommunications"
+            }
+        ]},
+
+        {
+        "firm":"Leonine",
+        "nodes": [
+            {
+            "entity":"Leonine",
+            "group":"firm"
+            },
+            {
+            "entity":"Alcohol",
+            "group":"issue"
+            },
+            {
+            "entity":"Bank/Finance",
+            "group":"issue"
+            },
+            {
+            "entity":"Business",
+            "group":"issue"
+            },
+            {
+            "entity":"E-commerce",
+            "group":"issue"
+            },
+            {
+            "entity":"Education",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Government/Public Affairs",
+            "group":"issue"
+            },
+            {
+            "entity":"Gun",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Insurance",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Pharmaceuticals",
+            "group":"issue"
+            },
+            {
+            "entity":"Real Estate",
+            "group":"issue"
+            },
+            {
+            "entity":"Telecommunications",
+            "group":"issue"
+            },
+            {
+            "entity":"Toys",
+            "group":"issue"
+            },
+            {
+            "entity":"Transportation",
+            "group":"issue"
+            },
+            {
+            "entity": "American Insurance Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American International Group, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "AT&T and its affiliates",
+            "group": "employer"
+            },
+            {
+            "entity": "CenturyLink",
+            "group": "employer"
+            },
+            {
+            "entity": "Connecticut Attorneys Title Company",
+            "group": "employer"
+            },
+            {
+            "entity": "Delta Dental Plan of Vermont, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Express Scripts Holding Co.",
+            "group": "employer"
+            },
+            {
+            "entity": "Giffords",
+            "group": "employer"
+            },
+            {
+            "entity": "Howard Center",
+            "group": "employer"
+            },
+            {
+            "entity": "Internet Coalition, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Long Trail School",
+            "group": "employer"
+            },
+            {
+            "entity": "Lyft, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "MPA - The Association of Magazine Media",
+            "group": "employer"
+            },
+            {
+            "entity": "MVP Health Care Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Mylan Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "National Grid USA Service Company, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "New England Cable and Telecommunications Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Oracle America, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Paving Association of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Philips Lighting",
+            "group": "employer"
+            },
+            {
+            "entity": "Prudential Financial, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "RELX Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Rutland Regional Medical Center",
+            "group": "employer"
+            },
+            {
+            "entity": "Town & Village of Woodstock",
+            "group": "employer"
+            },
+            {
+            "entity": "Toy Industry Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Trace LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Travel Tech",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Green Line Devco, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Home and Community Care",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Independent Schools Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Information Consortium",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Law School",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Nurse Practitioners Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Rural Education Collaborative, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Student Assistance Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Vehicle & Automotive Distributors Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Wholesale Beverage Association",
+            "group": "employer"
+            },
+            {
+            "entity": "VISA, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Wireless Telecommunication Tax Simplification Coalition",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Alcohol",
+            "source": "Leonine"
+            },
+            {
+            "target": "Bank/Finance",
+            "source": "Leonine"
+            },
+            {
+            "target": "Business",
+            "source": "Leonine"
+            },
+            {
+            "target": "E-commerce",
+            "source": "Leonine"
+            },
+            {
+            "target": "Education",
+            "source": "Leonine"
+            },
+            {
+            "target": "Energy",
+            "source": "Leonine"
+            },
+            {
+            "target": "Government/Public Affairs",
+            "source": "Leonine"
+            },
+            {
+            "target": "Gun",
+            "source": "Leonine"
+            },
+            {
+            "target": "Health Care",
+            "source": "Leonine"
+            },
+            {
+            "target": "Insurance",
+            "source": "Leonine"
+            },
+            {
+            "target": "Other",
+            "source": "Leonine"
+            },
+            {
+            "target": "Pharmaceuticals",
+            "source": "Leonine"
+            },
+            {
+            "target": "Real Estate",
+            "source": "Leonine"
+            },
+            {
+            "target": "Telecommunications",
+            "source": "Leonine"
+            },
+            {
+            "target": "Toys",
+            "source": "Leonine"
+            },
+            {
+            "target": "Transportation",
+            "source": "Leonine"
+            },
+            {
+            "target": "Vermont Wholesale Beverage Association",
+            "source": "Alcohol"
+            },
+            {
+            "target": "Prudential Financial, Inc.",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "VISA, Inc.",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "MPA - The Association of Magazine Media",
+            "source": "Business"
+            },
+            {
+            "target": "RELX Inc.",
+            "source": "E-commerce"
+            },
+            {
+            "target": "Long Trail School",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Independent Schools Association",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Law School",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Rural Education Collaborative, Inc.",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Student Assistance Corporation",
+            "source": "Education"
+            },
+            {
+            "target": "National Grid USA Service Company, Inc.",
+            "source": "Energy"
+            },
+            {
+            "target": "Philips Lighting",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Green Line Devco, LLC",
+            "source": "Energy"
+            },
+            {
+            "target": "Town & Village of Woodstock",
+            "source": "Government/Public Affairs"
+            },
+            {
+            "target": "Giffords",
+            "source": "Gun"
+            },
+            {
+            "target": "Delta Dental Plan of Vermont, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Howard Center",
+            "source": "Health Care"
+            },
+            {
+            "target": "MVP Health Care Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Mylan Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Rutland Regional Medical Center",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Home and Community Care",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Nurse Practitioners Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "American Insurance Association",
+            "source": "Insurance"
+            },
+            {
+            "target": "American International Group, Inc.",
+            "source": "Insurance"
+            },
+            {
+            "target": "Paving Association of Vermont",
+            "source": "Other"
+            },
+            {
+            "target": "Trace LLC",
+            "source": "Other"
+            },
+            {
+            "target": "Travel Tech",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Vehicle & Automotive Distributors Association",
+            "source": "Other"
+            },
+            {
+            "target": "Express Scripts Holding Co.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Connecticut Attorneys Title Company",
+            "source": "Real Estate"
+            },
+            {
+            "target": "AT&T and its affiliates",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "CenturyLink",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Internet Coalition, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "New England Cable and Telecommunications Association",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Oracle America, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Vermont Information Consortium",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Wireless Telecommunication Tax Simplification Coalition",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Toy Industry Association",
+            "source": "Toys"
+            },
+            {
+            "target": "Lyft, Inc.",
+            "source": "Transportation"
+            }
+        ]},
+
+        {
+        "firm":"Downs Rachlin Martin",
+        "nodes": [
+            {
+            "entity":"Downs Rachlin Martin",
+            "group":"firm"
+            },
+            {
+            "entity":"Bank/Finance",
+            "group":"issue"
+            },
+            {
+            "entity":"Business",
+            "group":"issue"
+            },
+            {
+            "entity":"Education",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Environment",
+            "group":"issue"
+            },
+            {
+            "entity":"Government/Public Affairs",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Insurance",
+            "group":"issue"
+            },
+            {
+            "entity":"Labor Unions",
+            "group":"issue"
+            },
+            {
+            "entity":"Manufacturing",
+            "group":"issue"
+            },
+            {
+            "entity":"Marijuana",
+            "group":"issue"
+            },
+            {
+            "entity":"Media/Journalism",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Pharmaceuticals",
+            "group":"issue"
+            },
+            {
+            "entity":"Real Estate",
+            "group":"issue"
+            },
+            {
+            "entity":"Ski Industry",
+            "group":"issue"
+            },
+            {
+            "entity":"Telecommunications",
+            "group":"issue"
+            },
+            {
+            "entity":"Transportation",
+            "group":"issue"
+            },
+            {
+            "entity": "3M Company",
+            "group": "employer"
+            },
+            {
+            "entity": "American Insurance Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American Lung Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American Petroleum Institute",
+            "group": "employer"
+            },
+            {
+            "entity": "Apple Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Bank of America Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "Bi-State Primary Care Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Brattleboro Retreat",
+            "group": "employer"
+            },
+            {
+            "entity": "BreathableBaby",
+            "group": "employer"
+            },
+            {
+            "entity": "City of Burlington",
+            "group": "employer"
+            },
+            {
+            "entity": "Civics Proficiency Institute",
+            "group": "employer"
+            },
+            {
+            "entity": "CNSI",
+            "group": "employer"
+            },
+            {
+            "entity": "Consolidated Communications, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Copley Hospital",
+            "group": "employer"
+            },
+            {
+            "entity": "Dartmouth-Hitchcock",
+            "group": "employer"
+            },
+            {
+            "entity": "Elevator Industry Work Preservation Fund",
+            "group": "employer"
+            },
+            {
+            "entity": "FedEx Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "Gifford Medical Center",
+            "group": "employer"
+            },
+            {
+            "entity": "GLOBALFOUNDRIES U.S. 2 LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Grassroots Vermont a/k/a Rutland County Organics",
+            "group": "employer"
+            },
+            {
+            "entity": "Greater Burlington YMCA",
+            "group": "employer"
+            },
+            {
+            "entity": "Greenwich Biosciences, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "International Business Machines Corporation (IBM)",
+            "group": "employer"
+            },
+            {
+            "entity": "ISO New England",
+            "group": "employer"
+            },
+            {
+            "entity": "Kingdom Trails Association, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Pfizer Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Planned Parenthood of Northern New England",
+            "group": "employer"
+            },
+            {
+            "entity": "Real Estate Valuation Advocacy Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Regional Development Corporations of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "SEI/Aaron's, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Springfield Hospital",
+            "group": "employer"
+            },
+            {
+            "entity": "TransCanada Hydro Northeast",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Business Roundtable",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Chamber of Commerce",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Insurance Agents Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Petroleum Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Press Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Ski Areas Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Wells Fargo",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Bank/Finance",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Business",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Education",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Energy",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Environment",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Government/Public Affairs",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Health Care",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Insurance",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Labor Unions",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Manufacturing",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Marijuana",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Media/Journalism",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Other",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Pharmaceuticals",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Real Estate",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Ski Industry",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Telecommunications",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Transportation",
+            "source": "Downs Rachlin Martin"
+            },
+            {
+            "target": "Bank of America Corporation",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Wells Fargo",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Apple Inc.",
+            "source": "Business"
+            },
+            {
+            "target": "Vermont Chamber of Commerce",
+            "source": "Business"
+            },
+            {
+            "target": "Civics Proficiency Institute",
+            "source": "Education"
+            },
+            {
+            "target": "American Petroleum Institute",
+            "source": "Energy"
+            },
+            {
+            "target": "TransCanada Hydro Northeast",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Petroleum Association",
+            "source": "Energy"
+            },
+            {
+            "target": "Elevator Industry Work Preservation Fund",
+            "source": "Environment"
+            },
+            {
+            "target": "City of Burlington",
+            "source": "Government/Public Affairs"
+            },
+            {
+            "target": "American Lung Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "Bi-State Primary Care Association, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Brattleboro Retreat",
+            "source": "Health Care"
+            },
+            {
+            "target": "Copley Hospital",
+            "source": "Health Care"
+            },
+            {
+            "target": "Dartmouth-Hitchcock",
+            "source": "Health Care"
+            },
+            {
+            "target": "Gifford Medical Center",
+            "source": "Health Care"
+            },
+            {
+            "target": "Planned Parenthood of Northern New England",
+            "source": "Health Care"
+            },
+            {
+            "target": "Springfield Hospital",
+            "source": "Health Care"
+            },
+            {
+            "target": "American Insurance Association",
+            "source": "Insurance"
+            },
+            {
+            "target": "Vermont Insurance Agents Association",
+            "source": "Insurance"
+            },
+            {
+            "target": "Greater Burlington YMCA",
+            "source": "Labor Unions"
+            },
+            {
+            "target": "3M Company",
+            "source": "Manufacturing"
+            },
+            {
+            "target": "GLOBALFOUNDRIES U.S. 2 LLC",
+            "source": "Manufacturing"
+            },
+            {
+            "target": "Grassroots Vermont a/k/a Rutland County Organics",
+            "source": "Marijuana"
+            },
+            {
+            "target": "Vermont Press Association",
+            "source": "Media/Journalism"
+            },
+            {
+            "target": "BreathableBaby",
+            "source": "Other"
+            },
+            {
+            "target": "International Business Machines Corporation (IBM)",
+            "source": "Other"
+            },
+            {
+            "target": "ISO New England",
+            "source": "Other"
+            },
+            {
+            "target": "Kingdom Trails Association, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Regional Development Corporations of Vermont",
+            "source": "Other"
+            },
+            {
+            "target": "SEI/Aaron's, Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Business Roundtable",
+            "source": "Other"
+            },
+            {
+            "target": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Greenwich Biosciences, Inc.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Pfizer Inc.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Real Estate Valuation Advocacy Association",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Vermont Ski Areas Association",
+            "source": "Ski Industry"
+            },
+            {
+            "target": "CNSI",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Consolidated Communications, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "FedEx Corporation",
+            "source": "Transportation"
+            }
+        ]},
+
+        {
+        "firm":"Morris & DeMag",
+        "nodes": [
+            {
+            "entity":"Morris & DeMag",
+            "group":"firm"
+            },
+            {
+            "entity":"Alcohol",
+            "group":"issue"
+            },
+            {
+            "entity":"Civil/Criminal Justice",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Pharmaceuticals",
+            "group":"issue"
+            },
+            {
+            "entity":"Transportation",
+            "group":"issue"
+            },
+            {
+            "entity": "Acelleron Medical Products c/o MultiState Associates Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Alliance of Automobile Manufacturers",
+            "group": "employer"
+            },
+            {
+            "entity": "American Chemistry Council",
+            "group": "employer"
+            },
+            {
+            "entity": "American Coatings Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American Forest & Paper Association",
+            "group": "employer"
+            },
+            {
+            "entity": "American Legal Financial Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Anheuser-Busch Companies",
+            "group": "employer"
+            },
+            {
+            "entity": "Association for Accessible Medicines",
+            "group": "employer"
+            },
+            {
+            "entity": "Biotechnology Innovation Organization",
+            "group": "employer"
+            },
+            {
+            "entity": "Consumer Technology Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Deere & Company",
+            "group": "employer"
+            },
+            {
+            "entity": "Entergy Nuclear Vermont Yankee",
+            "group": "employer"
+            },
+            {
+            "entity": "IHS Markit",
+            "group": "employer"
+            },
+            {
+            "entity": "National Association of Settlement Purchasers",
+            "group": "employer"
+            },
+            {
+            "entity": "National Electrical Manufacturers Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Railroad Association of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Receivables Management Association International",
+            "group": "employer"
+            },
+            {
+            "entity": "Tyler Technologies, Inc",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Association of Assistant Judges",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Athletic Trainers Assoc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Boat & Marine Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Dental Hygienist's Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Verus Financial LLC",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Alcohol",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Civil/Criminal Justice",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Energy",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Health Care",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Other",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Pharmaceuticals",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Transportation",
+            "source": "Morris & DeMag"
+            },
+            {
+            "target": "Anheuser-Busch Companies",
+            "source": "Alcohol"
+            },
+            {
+            "target": "Vermont Association of Assistant Judges",
+            "source": "Civil/Criminal Justice"
+            },
+            {
+            "target": "Entergy Nuclear Vermont Yankee",
+            "source": "Energy"
+            },
+            {
+            "target": "Acelleron Medical Products c/o MultiState Associates Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Association for Accessible Medicines",
+            "source": "Health Care"
+            },
+            {
+            "target": "Biotechnology Innovation Organization",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Dental Hygienist's Association",
+            "source": "Health Care"
+            },
+            {
+            "target": "American Coatings Association",
+            "source": "Other"
+            },
+            {
+            "target": "American Forest & Paper Association",
+            "source": "Other"
+            },
+            {
+            "target": "American Legal Financial Association",
+            "source": "Other"
+            },
+            {
+            "target": "Consumer Technology Association",
+            "source": "Other"
+            },
+            {
+            "target": "Deere & Company",
+            "source": "Other"
+            },
+            {
+            "target": "IHS Markit",
+            "source": "Other"
+            },
+            {
+            "target": "National Association of Settlement Purchasers",
+            "source": "Other"
+            },
+            {
+            "target": "National Electrical Manufacturers Association",
+            "source": "Other"
+            },
+            {
+            "target": "Receivables Management Association International",
+            "source": "Other"
+            },
+            {
+            "target": "Tyler Technologies, Inc",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Athletic Trainers Assoc.",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Boat & Marine Association",
+            "source": "Other"
+            },
+            {
+            "target": "Verus Financial LLC",
+            "source": "Other"
+            },
+            {
+            "target": "American Chemistry Council",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Alliance of Automobile Manufacturers",
+            "source": "Transportation"
+            },
+            {
+            "target": "Railroad Association of Vermont",
+            "source": "Transportation"
+            }
+        ]},
+
+        {
+        "firm":"KSE",
+        "nodes": [
+            {
+            "entity":"KSE",
+            "group":"firm"
+            },
+            {
+            "entity":"Agriculture",
+            "group":"issue"
+            },
+            {
+            "entity":"Alcohol",
+            "group":"issue"
+            },
+            {
+            "entity":"Bank/Finance",
+            "group":"issue"
+            },
+            {
+            "entity":"Business",
+            "group":"issue"
+            },
+            {
+            "entity":"Children & Youth",
+            "group":"issue"
+            },
+            {
+            "entity":"Education",
+            "group":"issue"
+            },
+            {
+            "entity":"Energy",
+            "group":"issue"
+            },
+            {
+            "entity":"Environment",
+            "group":"issue"
+            },
+            {
+            "entity":"Government/Public Affairs",
+            "group":"issue"
+            },
+            {
+            "entity":"Health Care",
+            "group":"issue"
+            },
+            {
+            "entity":"Insurance",
+            "group":"issue"
+            },
+            {
+            "entity":"Media/Journalism",
+            "group":"issue"
+            },
+            {
+            "entity":"Other",
+            "group":"issue"
+            },
+            {
+            "entity":"Pharmaceuticals",
+            "group":"issue"
+            },
+            {
+            "entity":"Real Estate",
+            "group":"issue"
+            },
+            {
+            "entity":"Ski Industry",
+            "group":"issue"
+            },
+            {
+            "entity":"Telecommunications",
+            "group":"issue"
+            },
+            {
+            "entity":"Toys",
+            "group":"issue"
+            },
+            {
+            "entity":"Transportation",
+            "group":"issue"
+            },
+            {
+            "entity": "American International Group, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "AT&T and its affiliates",
+            "group": "employer"
+            },
+            {
+            "entity": "Brooks Bawden, LLC (Vigilant Solutions, Inc.)",
+            "group": "employer"
+            },
+            {
+            "entity": "Connecticut Attorneys Title Company",
+            "group": "employer"
+            },
+            {
+            "entity": "Delta Dental Plan of Vermont, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Exeter Group, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Express Scripts Holding Co.",
+            "group": "employer"
+            },
+            {
+            "entity": "GII Development, LLC",
+            "group": "employer"
+            },
+            {
+            "entity": "Green Mountain Power",
+            "group": "employer"
+            },
+            {
+            "entity": "Iberdrola Renewables",
+            "group": "employer"
+            },
+            {
+            "entity": "Internet Coalition, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Jay Peak Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Let's Grow Kids",
+            "group": "employer"
+            },
+            {
+            "entity": "MPA - Association of Magazine Media",
+            "group": "employer"
+            },
+            {
+            "entity": "Mylan Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "New England Cable and Telecommunications Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Northeast Equipment Dealers Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Oracle America, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Paving Association of Vermont",
+            "group": "employer"
+            },
+            {
+            "entity": "Prudential Financial, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Rutland Regional Medical Center",
+            "group": "employer"
+            },
+            {
+            "entity": "Stratton-Carpenter & Associates",
+            "group": "employer"
+            },
+            {
+            "entity": "The Humane Society of the United States",
+            "group": "employer"
+            },
+            {
+            "entity": "Town & Village of Woodstock",
+            "group": "employer"
+            },
+            {
+            "entity": "Town of Dover",
+            "group": "employer"
+            },
+            {
+            "entity": "Toy Industry Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Education Health Initiative",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Gas Systems, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Growers, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Home and Community Care",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Independent Schools Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Information Consortium",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Law School",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Railway, Inc",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Student Assistance Corporation",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Vehicle & Automotive Distributors Association",
+            "group": "employer"
+            },
+            {
+            "entity": "Vermont Wholesale Beverage Association",
+            "group": "employer"
+            },
+            {
+            "entity": "VISA, Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "William E. Dailey Inc.",
+            "group": "employer"
+            },
+            {
+            "entity": "Wireless Telecommunications Tax Simplifiation Coalition",
+            "group": "employer"
+            }
+        ],
+        "links": [
+            {
+            "target": "Agriculture",
+            "source": "KSE"
+            },
+            {
+            "target": "Alcohol",
+            "source": "KSE"
+            },
+            {
+            "target": "Bank/Finance",
+            "source": "KSE"
+            },
+            {
+            "target": "Business",
+            "source": "KSE"
+            },
+            {
+            "target": "Children & Youth",
+            "source": "KSE"
+            },
+            {
+            "target": "Education",
+            "source": "KSE"
+            },
+            {
+            "target": "Energy",
+            "source": "KSE"
+            },
+            {
+            "target": "Environment",
+            "source": "KSE"
+            },
+            {
+            "target": "Government/Public Affairs",
+            "source": "KSE"
+            },
+            {
+            "target": "Health Care",
+            "source": "KSE"
+            },
+            {
+            "target": "Insurance",
+            "source": "KSE"
+            },
+            {
+            "target": "Media/Journalism",
+            "source": "KSE"
+            },
+            {
+            "target": "Other",
+            "source": "KSE"
+            },
+            {
+            "target": "Pharmaceuticals",
+            "source": "KSE"
+            },
+            {
+            "target": "Real Estate",
+            "source": "KSE"
+            },
+            {
+            "target": "Ski Industry",
+            "source": "KSE"
+            },
+            {
+            "target": "Telecommunications",
+            "source": "KSE"
+            },
+            {
+            "target": "Toys",
+            "source": "KSE"
+            },
+            {
+            "target": "Transportation",
+            "source": "KSE"
+            },
+            {
+            "target": "Vermont Growers, Inc.",
+            "source": "Agriculture"
+            },
+            {
+            "target": "Vermont Wholesale Beverage Association",
+            "source": "Alcohol"
+            },
+            {
+            "target": "Prudential Financial, Inc.",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "VISA, Inc.",
+            "source": "Bank/Finance"
+            },
+            {
+            "target": "Northeast Equipment Dealers Association",
+            "source": "Business"
+            },
+            {
+            "target": "Let's Grow Kids",
+            "source": "Children & Youth"
+            },
+            {
+            "target": "Vermont Independent Schools Association",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Law School",
+            "source": "Education"
+            },
+            {
+            "target": "Vermont Student Assistance Corporation",
+            "source": "Education"
+            },
+            {
+            "target": "Green Mountain Power",
+            "source": "Energy"
+            },
+            {
+            "target": "Vermont Gas Systems, Inc.",
+            "source": "Energy"
+            },
+            {
+            "target": "Iberdrola Renewables",
+            "source": "Environment"
+            },
+            {
+            "target": "The Humane Society of the United States",
+            "source": "Environment"
+            },
+            {
+            "target": "Town & Village of Woodstock",
+            "source": "Government/Public Affairs"
+            },
+            {
+            "target": "Delta Dental Plan of Vermont, Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Mylan Inc.",
+            "source": "Health Care"
+            },
+            {
+            "target": "Rutland Regional Medical Center",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Education Health Initiative",
+            "source": "Health Care"
+            },
+            {
+            "target": "Vermont Home and Community Care",
+            "source": "Health Care"
+            },
+            {
+            "target": "American International Group, Inc.",
+            "source": "Insurance"
+            },
+            {
+            "target": "MPA - Association of Magazine Media",
+            "source": "Media/Journalism"
+            },
+            {
+            "target": "Brooks Bawden, LLC (Vigilant Solutions, Inc.)",
+            "source": "Other"
+            },
+            {
+            "target": "Paving Association of Vermont",
+            "source": "Other"
+            },
+            {
+            "target": "Stratton-Carpenter & Associates",
+            "source": "Other"
+            },
+            {
+            "target": "Town of Dover",
+            "source": "Other"
+            },
+            {
+            "target": "Vermont Vehicle & Automotive Distributors Association",
+            "source": "Other"
+            },
+            {
+            "target": "William E. Dailey Inc.",
+            "source": "Other"
+            },
+            {
+            "target": "Express Scripts Holding Co.",
+            "source": "Pharmaceuticals"
+            },
+            {
+            "target": "Connecticut Attorneys Title Company",
+            "source": "Real Estate"
+            },
+            {
+            "target": "GII Development, LLC",
+            "source": "Real Estate"
+            },
+            {
+            "target": "Jay Peak Inc.",
+            "source": "Ski Industry"
+            },
+            {
+            "target": "AT&T and its affiliates",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Exeter Group, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Internet Coalition, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "New England Cable and Telecommunications Association",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Oracle America, Inc.",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Vermont Information Consortium",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Wireless Telecommunications Tax Simplifiation Coalition",
+            "source": "Telecommunications"
+            },
+            {
+            "target": "Toy Industry Association",
+            "source": "Toys"
+            },
+            {
+            "target": "Vermont Railway, Inc",
+            "source": "Transportation"
+            }
+        ]}
+    ]
+}
