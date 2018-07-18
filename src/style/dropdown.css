@@ -1,0 +1,28 @@
+.menu-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    margin: 0 1%;
+    width: 45%;
+}
+
+span {
+    font-family: Verdana;
+}
+
+.mark-text {
+    background-color: #FFD700;
+    border-radius: 3px;
+}
+
+.left-menu-label {
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    font-weight: lighter;
+    position : relative;
+    top : -0.1rem;
+}

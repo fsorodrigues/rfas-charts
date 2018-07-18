@@ -1,0 +1,57 @@
+.test {
+    height: 500px;
+}
+
+.content {
+    width: 66%;
+}
+
+#firms-networks-tooltip,
+#firms-networks-2-tooltip {
+    background-color: gainsboro;
+    border-radius: 0.2rem;
+    font-size: 0.7rem;
+    position:absolute;
+    pointer-events: none;
+}
+
+.info-entity {
+    margin: 0.5rem 1rem;
+}
+
+#firms-networks-2,
+#sectors-top25 {
+    min-height: 600px;
+}
+
+#firms-networks,
+#firms-top10,
+#sectors-yearly,
+#lobby-totals,
+#gun-totals,
+#marijuana-totals {
+    min-height: 400px;
+}
+
+#sectors-top25-slider,
+#firms-top10-slider,
+#sectors-yearly-menu,
+#firms-networks-menu,
+#firms-networks-2-menu {
+    margin-bottom: 1.5rem;
+}
+
+
+svg {
+    display:block;
+}
+
+.wrapper {
+    margin: 10% 5%;
+    /* position: relative; */
+    width:100%;
+}
+
+html {
+    font-family: Verdana;
+}
