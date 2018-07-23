@@ -53,9 +53,9 @@ const firmsNetworks = Network(document.querySelector('#firms-networks'));
 
 const firmsNetworksMenu = DropdownNetworks(document.querySelector('#firms-networks-menu'));
 const firmsNetworks2 = Network(document.querySelector('#firms-networks-2'))
-    .radiusCollide(20)
+    .radiusCollide(15)
     .linkDistance(10)
-    .chargeStrength(-10);
+    .chargeStrength(-30);
 const firmsNetworksMenu2 = DropdownNetworks(document.querySelector('#firms-networks-2-menu'));
 
 const tooltip = Tooltip();
@@ -64,11 +64,22 @@ const lobbyTotals = LineChart(document.querySelector('#lobby-totals'));
 const gunTotals = LineChart(document.querySelector('#gun-totals'));
 const marijuanaTotals = LineChart(document.querySelector('#marijuana-totals'));
 
+const top5EmployersSectors = HorBarChart(document.querySelector('#top5-employers-sectors'))
+    .xScale('Amount')
+    .barLength('Amount')
+    .sortBy('Amount')
+    .display('Health Care')
+    .yAxis('Registrant Name')
+    .topN(5);
+const top5EmployersSectorsMenu = DropdownBars(document.querySelector('#top5-employers-sectors-menu'))
+    .subset(subset);
+
 // Loading data
 const sectors = d3.csv('./data/sector-amount-total.csv', parse);
 const firms = d3.csv('./data/firms-amount-total.csv', parse);
 const firmsConnections = d3.json('./data/firms-network.json');
 const firmsConnections2 = d3.json('./data/firms-network-backup.json');
+const employersSectors = d3.csv('./data/employers-sectors-total.csv', parse);
 
 // Drawing
 sectors.then((sectors) => {
@@ -117,12 +128,11 @@ firmsConnections.then((firmsConnections) => {
     firmsNetworksMenu(firmsConnections);
 });
 
-firmsNetworks.on('circle:enter', function(d,ctx) {
+firmsNetworks.on('circle:enter', function(d) {
     const rootNodeId = d3.select(this.parentNode.parentNode.parentNode.parentNode)
         .attr('id');
     const tooltipId = `${rootNodeId}-tooltip`;
     const tooltipSelection = d3.select(`#${tooltipId}`);
-    console.log(rootNodeId);
 
     tooltip(d,tooltipSelection);
 
@@ -132,7 +142,7 @@ firmsNetworks.on('circle:enter', function(d,ctx) {
     tooltipSelection.style('left',`${left}px`)
         .style('top',`${top}px`);
 })
-.on('circle:leave', function(d,ctx) {
+.on('circle:leave', function(d) {
     const rootNodeId = d3.select(this.parentNode.parentNode.parentNode.parentNode)
         .attr('id');
     const tooltipId = `${rootNodeId}-tooltip`;
@@ -158,7 +168,7 @@ firmsNetworksMenu2.on('menu:selected',function(data,value) {
     firmsNetworks2(data.data);
 });
 
-firmsNetworks2.on('circle:enter', function(d,ctx) {
+firmsNetworks2.on('circle:enter', function(d,color) {
     const rootNodeId = d3.select(this.parentNode.parentNode.parentNode.parentNode)
         .attr('id');
     const tooltipId = `${rootNodeId}-tooltip`;
@@ -170,9 +180,10 @@ firmsNetworks2.on('circle:enter', function(d,ctx) {
     const top = d3.event.pageY - 28;
 
     tooltipSelection.style('left',`${left}px`)
-        .style('top',`${top}px`);
+        .style('top',`${top}px`)
+        .style('background-color', color);
 })
-.on('circle:leave', function(d,ctx) {
+.on('circle:leave', function(d) {
     const rootNodeId = d3.select(this.parentNode.parentNode.parentNode.parentNode)
         .attr('id');
     const tooltipId = `${rootNodeId}-tooltip`;
@@ -181,4 +192,14 @@ firmsNetworks2.on('circle:enter', function(d,ctx) {
     tooltipSelection.style('left',0)
         .style('top',0);
     tooltipSelection.html('');
+});
+
+employersSectors.then((employersSectors) => {
+    top5EmployersSectors(employersSectors);
+    top5EmployersSectorsMenu(employersSectors);
+});
+
+top5EmployersSectorsMenu.on('menu:selected',function(data,value) {
+    top5EmployersSectors.display(value);
+    top5EmployersSectors(data);
 });
