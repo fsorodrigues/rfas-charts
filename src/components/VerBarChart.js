@@ -97,31 +97,28 @@ function VerBarChart(_) {
             .ticks(5);
 
         //Axis
-		const axisXNode = plotUpdate.selectAll('.axis-x')
+		let axisXNode = plotUpdate.selectAll('.axis-x')
 			.data([1]);
 		const axisXNodeEnter = axisXNode.enter()
 			.append('g')
 			.attr('class','axis axis-x vertical');
-		axisXNode.merge(axisXNodeEnter)
+		axisXNode = axisXNode.merge(axisXNodeEnter)
 			.attr('transform',`translate(0,${h})`)
-			.call(axisX)
-            .selectAll('text')
+			.call(axisX);
+
+        axisXNode.selectAll('text')
             .attr('dx', -3);
 
-		const axisYNode = plotUpdate.selectAll('.axis-y')
+		let axisYNode = plotUpdate.selectAll('.axis-y')
 			.data([1]);
 		const axisYNodeEnter = axisYNode.enter()
 			.append('g')
 			.attr('class','axis axis-y vertical');
-		axisYNode.merge(axisYNodeEnter)
+		axisYNode = axisYNode.merge(axisYNodeEnter)
             .attr('transform',`translate(-${3},${0})`)
             .transition()
             .duration(800)
 			.call(axisY);
-
-        plotUpdate.select('.axis-y')
-            .select('.tick:first-of-type')
-            .style('opacity',_axisOpacity);
 
         let binsUpdate = plotUpdate.selectAll('.bin')
             .data(unstackedData, d => d.year);

@@ -19,6 +19,7 @@ function HorBarChart(_) {
     let _axisOpacity = 0;
     let _margin = {t:5, r:20, b:20, l:120};
     let _padding = 0;
+    let _display;
 
     function exports(data) {
 
@@ -62,8 +63,11 @@ function HorBarChart(_) {
         plotUpdate = plotUpdate.merge(plotEnter);
 
         // data transformation
-        const topN = data.sort((a,b) => (+b[_sortBy]) - (+a[_sortBy]))
-            .slice(0,_topN);
+        let topN = data.sort((a,b) => (+b[_sortBy]) - (+a[_sortBy]));
+        if (_display) {
+            topN = topN.filter(d => d['Sector'] == _display);
+        }
+        topN = topN.slice(0,_topN);
 
         // Setting up scales
         const scaleY = d3.scaleBand()
@@ -90,32 +94,29 @@ function HorBarChart(_) {
             .ticks(5);
 
         //Axis
-		const axisXNode = plotUpdate.selectAll('.axis-x')
+		let axisXNode = plotUpdate.selectAll('.axis-x')
 			.data([1]);
 		const axisXNodeEnter = axisXNode.enter()
 			.append('g')
-			.attr('class','axis axis-x');
-		axisXNode.merge(axisXNodeEnter)
+			.attr('class','axis axis-x horizontal');
+		axisXNode = axisXNode.merge(axisXNodeEnter)
 			.attr('transform',`translate(0,${h})`)
-			.call(axisX)
-            .selectAll('text')
+			.call(axisX);
+
+        axisXNode.selectAll('text')
             .attr('dx', -3);
 
 		const axisYNode = plotUpdate.selectAll('.axis-y')
 			.data([1]);
 		const axisYNodeEnter = axisYNode.enter()
 			.append('g')
-			.attr('class','axis axis-y');
+			.attr('class','axis axis-y horizontal');
 		axisYNode.merge(axisYNodeEnter)
             .attr('transform',`translate(-${3},${0})`)
             .transition()
             .delay(300)
             .duration(800)
 			.call(axisY);
-
-        plotUpdate.select('.axis-x')
-            .select('.tick:first-of-type')
-            .style('opacity',_axisOpacity);
 
         let binsUpdate = plotUpdate.selectAll('.bin')
             .data(topN, d => d[_yAxis]);
@@ -181,6 +182,13 @@ function HorBarChart(_) {
         // _ expects an integer
         if (_ === 'undefined') return _topN;
         _topN = _;
+        return this;
+    };
+
+    exports.display = function(_) {
+        // _ expects a string
+        if (_ === 'undefined') return _display;
+        _display = _;
         return this;
     };
 
