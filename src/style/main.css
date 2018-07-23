@@ -11,6 +11,8 @@
     background-color: gainsboro;
     border-radius: 0.2rem;
     font-size: 0.7rem;
+    line-height: 1.2rem;
+    max-width: 250px;
     position:absolute;
     pointer-events: none;
 }
@@ -29,7 +31,8 @@
 #sectors-yearly,
 #lobby-totals,
 #gun-totals,
-#marijuana-totals {
+#marijuana-totals,
+#top5-employers-sectors {
     min-height: 400px;
 }
 
