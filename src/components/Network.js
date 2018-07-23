@@ -36,7 +36,7 @@ function Network(_) {
             .attr('height',h)
             .attr('width',w);
 
-        let plot = svg.selectAll('plot')
+        let plot = svg.selectAll('.plot')
             .data([1]);
         const plotEnter = plot.enter()
             .append('g');
@@ -56,7 +56,8 @@ function Network(_) {
         simulation.force('charge',charge)
             .force('radius', radius)
             .force('center',center)
-            .force('link',linkForce);
+            .force('link',linkForce)
+            .force('bounds',boxingForce);
 
         let link = plot.selectAll('.links')
             .data([1]);
@@ -94,26 +95,17 @@ function Network(_) {
             .classed('circle', true)
             .attr('id', d => d.entity)
             .attr('r', d => scaleRadius(groupLookup(d.group)))
+            .attr('fill',d => getFill(d.group))
+            .attr('fill-opacity',0.8)
+            .attr('stroke','black')
+            .attr('stroke-width',0.5)
             .on('mouseenter', function(d) {
-                _dispatch.call('circle:enter',this,d);
+                const color = getFill(d.group);
+                _dispatch.call('circle:enter',this,d,color);
             })
             .on('mouseleave', function(d) {
                 _dispatch.call('circle:leave',this,null);
             });
-
-        node.selectAll('.issue')
-            .attr('fill', 'none')
-            .attr('fill', '#FFA500')
-            .attr('fill-opacity',0.5)
-            .attr('stroke','#FFA500')
-            .attr('stroke-width',1);
-
-        node.selectAll('.firm')
-            .attr('fill', '#FF8C00')
-            .attr('fill-opacity',0.8);
-
-        node.selectAll('.employer')
-            .attr('fill', 'Gold');
 
         simulation.nodes(filterData.nodes)
             .on('tick', ticked);
@@ -131,21 +123,25 @@ function Network(_) {
                 .attr('cy', function(d) { return d.y; });
         }
 
-        const zoom = d3.zoom()
-            .on('zoom', zoomed);
+        // const zoom = d3.zoom()
+        //     .on('zoom', zoomed);
+        //
+        // function zoomed() {
+        //     const transform = d3.event.transform;
+        //
+        //     linkLines.attr('transform', d3.event.transform);
+        //     nodeCircles.attr('transform', d3.event.transform);
+        //
+        // }
+        //
+        // svg.call(zoom);
 
-        function zoomed() {
-            const transform = d3.event.transform;
-
-            linkLines.attr('transform', d3.event.transform);
-            nodeCircles.attr('transform', d3.event.transform);
-
-            // circles.attr('cx', d => transform.applyX(scaleX(d)))
-            //     .attr('cy', d => transform.applyX(scaleY(d)));
+        function boxingForce() {
+            nodeCircles.each(d => {
+                d.x = Math.max(-w, Math.min(w, d.x))-10;
+                d.y = Math.max(-h, Math.min(h, d.y))-10;
+            });
         }
-
-        svg.call(zoom);
-
     }
 
     // create getter-setter functions
@@ -198,9 +194,13 @@ export default Network;
 
 const groupLookup = d3.scaleOrdinal()
     .domain(['firm','issue','employer'])
-    .range([9,6,3]);
+    .range([9,6,4]);
 
 const scaleRadius =  d3.scalePow()
     .exponent(1/2)
     .domain([9,3])
     .range([12,3]);
+
+const getFill = d3.scaleOrdinal()
+    .domain(['firm','issue','employer'])
+    .range(['#FFA500','#FF8C00','#FFD700']);
