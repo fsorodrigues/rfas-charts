@@ -54,7 +54,9 @@ function DropdownBars(_) {
                 return objectify;
         });
 
-        const filterData = contains(nestData,_subset,_accessor);
+        const filterData = contains(nestData,_subset,_accessor).sort((a,b) => {
+            return _subset.indexOf(a.Sector) - _subset.indexOf(b.Sector);
+        });
 
         // appending menu
         let dropdown = container.selectAll('.dropdown-menu')
