@@ -17,7 +17,7 @@ function HorBarChart(_) {
     let _yAxis = 'Sector';
     let _topN = 20;
     let _axisOpacity = 0;
-    let _margin = {t:5, r:20, b:20, l:120};
+    let _margin = {t:5, r:20, b:20, l:300};
     let _padding = 0;
     let _display;
 

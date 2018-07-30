@@ -2,7 +2,7 @@
 import * as d3 from 'd3';
 
 // importing modules
-import {formatYear,formatMillionsMoney} from '../utils';
+import {formatMillionsMoney,parseTimeYear,formatTimeYear} from '../utils';
 
 // importing stylesheets
 import '../style/axis.css';
@@ -69,9 +69,12 @@ function LineChart(_) {
             sumYears.push(objectify);
         }
 
+        const minYear = d3.min(sumYears,d => d.year);
+        const maxYear = d3.max(sumYears,d => d.year);
+
         // setting up scales
-        const scaleX = d3.scaleLinear()
-            .domain(d3.extent(sumYears,d => d.year))
+        const scaleX = d3.scaleTime()
+            .domain([parseTimeYear(minYear),parseTimeYear(maxYear)])
             .range([0,w]);
         const scaleY = d3.scaleLinear()
             .domain([0,d3.max(sumYears, d => d.sum)])
@@ -79,12 +82,12 @@ function LineChart(_) {
 
         // setting up line generator path
         const line = d3.area()
-            .x(d => scaleX(d.year))
+            .x(d => scaleX(parseTimeYear(+d.year)))
             .y(d => scaleY(d.sum))
             .curve(_curve);
 
         const area = d3.area()
-            .x(d => scaleX(+d.year))
+            .x(d => scaleX(parseTimeYear(+d.year)))
             .y0(d => scaleY(0))
             .y1(d => scaleY(d.sum))
             .curve(_curve);
@@ -137,7 +140,7 @@ function LineChart(_) {
         const axisX = d3.axisBottom()
             .scale(scaleX)
             .ticks(5)
-            .tickFormat(d => formatYear(d));
+            .tickFormat(d => formatTimeYear(d));
 
         // draw axis
         // x-axis
