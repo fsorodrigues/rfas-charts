@@ -1,6 +1,12 @@
 // importing d3.js
 import * as d3 from 'd3';
 
+// importing modules
+import {isMobile} from '../utils';
+
+// instantiate mobile check
+const mobile = isMobile();
+
 function Network(_) {
 
     // create getter-setter variables in factory scope
@@ -99,12 +105,27 @@ function Network(_) {
             .attr('fill-opacity',0.8)
             .attr('stroke','black')
             .attr('stroke-width',0.5)
-            .on('mouseenter', function(d) {
-                const color = getFill(d.group);
-                _dispatch.call('circle:enter',this,d,color);
-            })
-            .on('mouseleave', function(d) {
-                _dispatch.call('circle:leave',this,null);
+            // .on('mouseenter', function(d) {
+            //     const color = getFill(d.group);
+            //     _dispatch.call('circle:enter',this,d,color);
+            // })
+            // .on('mouseleave', function(d) {
+            //     _dispatch.call('circle:leave',this,null);
+            // })
+            .on('click', function(d) {
+                const thisEl = d3.select(this);
+                const isActive = thisEl.classed('active');
+
+                if (mobile) {
+                    if (isActive) {
+                        nodeCircles.classed('active', false);
+                        _dispatch.call('circle:leave',this,null);
+                    } else {
+                        thisEl.classed('active', true);
+                        const color = getFill(d.group);
+                        _dispatch.call('circle:enter',this,d,color);
+                    }
+                }
             });
 
         simulation.nodes(filterData.nodes)
@@ -122,19 +143,6 @@ function Network(_) {
             nodeCircles.attr('cx', function(d) { return d.x; })
                 .attr('cy', function(d) { return d.y; });
         }
-
-        // const zoom = d3.zoom()
-        //     .on('zoom', zoomed);
-        //
-        // function zoomed() {
-        //     const transform = d3.event.transform;
-        //
-        //     linkLines.attr('transform', d3.event.transform);
-        //     nodeCircles.attr('transform', d3.event.transform);
-        //
-        // }
-        //
-        // svg.call(zoom);
 
         function boxingForce() {
             nodeCircles.each(d => {
