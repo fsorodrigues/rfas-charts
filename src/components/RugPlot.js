@@ -68,8 +68,6 @@ function RugPlot(_) {
             .domain([0,h])
             .range([h,0]);
 
-        console.log(filterData);
-
         // appending lines to plot
         let lineUpdate = plotUpdate.selectAll('.lines')
             .data(filterData);
@@ -83,7 +81,7 @@ function RugPlot(_) {
             .attr("y2", scaleY(0))
             .style('stroke', 'black')
             .style('stroke-opacity',0.5);
-        
+
     }
 
     // create getter-setter pattern for customization

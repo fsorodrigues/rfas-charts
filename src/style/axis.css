@@ -41,3 +41,10 @@
 .horizontal .axis-x .tick:first-of-type {
     opacity: 0;
 }
+
+/* LEGEND */
+.area-label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}

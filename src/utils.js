@@ -17,7 +17,6 @@ export const formatMillions = format('.2s');
 export const formatMillionsMoney = d => {
     return `$${formatMillions(d).replace('M','m')}`;
 };
-
 export const formatYear = format('.0f');
 
 export const delay = (d,i) => 200 + i * 30;

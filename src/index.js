@@ -15,13 +15,14 @@ import Slider from './components/Slider';
 import DropdownBars from './components/DropdownBars';
 import Network from './components/Network';
 import DropdownNetworks from './components/DropdownNetworks';
-import LineChart from './components/LineChart';
+import AreaChart from './components/AreaChart';
 import RugPlot from './components/RugPlot';
 import Tooltip from './components/Tooltip';
+import LinesChart from './components/LinesChart';
 
 // global variables
 const subset = ['Health Care','Energy','Environment','Telecommunications',
-                'Education','Marijuana','Pharmaceuticals','Gun'];
+                'Education','Marijuana','Pharmaceuticals','Gun','Labor Unions'];
 
 // Instantiating Modules
 const sectorsTop20 = HorBarChart(document.querySelector('#sectors-top25'))
@@ -56,10 +57,10 @@ const firmsNetworksMenu2 = DropdownNetworks(document.querySelector('#firms-netwo
 
 const tooltip = Tooltip();
 
-const lobbyTotals = LineChart(document.querySelector('#lobby-totals'));
-const gunTotals = LineChart(document.querySelector('#gun-totals'));
-const marijuanaTotals = LineChart(document.querySelector('#marijuana-totals'));
-const healthCareTotals = LineChart(document.querySelector('#health-care-totals'));
+const lobbyTotals = AreaChart(document.querySelector('#lobby-totals'));
+const gunTotals = AreaChart(document.querySelector('#gun-totals'));
+const marijuanaTotals = AreaChart(document.querySelector('#marijuana-totals'));
+const healthCareTotals = AreaChart(document.querySelector('#health-care-totals'));
 
 const top5EmployersSectors = HorBarChart(document.querySelector('#top5-employers-sectors'))
     .xScale('Amount')
@@ -77,6 +78,8 @@ const marijuanaRugPlot = RugPlot(document.querySelector('#marijuana-totals'))
 const healthCareRugPlot = RugPlot(document.querySelector('#health-care-totals'))
     .display('Health Care');
 
+const lobbyCampaignCompare = LinesChart(document.querySelector('#lobby-campaign-lines'));
+
 // Loading data
 const sectors = d3.csv('./data/sector-amount-total.csv',parse);
 const firms = d3.csv('./data/firms-amount-total.csv',parse);
@@ -84,6 +87,7 @@ const firmsConnections = d3.json('./data/firms-network.json');
 const firmsConnections2 = d3.json('./data/firms-network-backup.json');
 const employersSectors = d3.csv('./data/employers-sectors-total.csv',parse);
 const legislation =  d3.csv('./data/legislation-11-18.csv',parse);
+const campaign = d3.csv('./data/campaign-lobby-per-year.csv',parse);
 
 // Drawing
 sectors.then((sectors) => {
@@ -141,6 +145,10 @@ sliderFirms.on('slider:moved',function(data) {
 firmsConnections.then((firmsConnections) => {
     firmsNetworks(firmsConnections.data);
     firmsNetworksMenu(firmsConnections);
+});
+
+campaign.then((campaign) => {
+    lobbyCampaignCompare(campaign);
 });
 
 firmsNetworks.on('circle:enter', function(d) {

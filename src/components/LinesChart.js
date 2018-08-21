@@ -12,7 +12,7 @@ import '../style/axis.css';
 // defining global variables
 
 // defining Factory function
-function LineChart(_) {
+function LinesChart(_) {
 
     /* CREATE GETTER SETTER PATTERN */
     let _margin = {t:10, r:25, b:20, l:35};
@@ -60,81 +60,113 @@ function LineChart(_) {
         // enter+update selection
         plotUpdate = plotUpdate.merge(plotEnter);
 
-        const listYears = Object.keys(data[0]).filter(d => +d);
-        const sumYears = [];
+        const listYears = data.map(d => +d.year);
+        const listColumns = data.columns.filter(d => d !== 'year');
+        const dataset = [];
 
-        for(let year in listYears) {
-            const sum = d3.sum(data, d => +d[listYears[year]]);
-            const objectify = {'year':+listYears[year],'sum':sum};
-            sumYears.push(objectify);
+        for (let type in listColumns) {
+            for (let year in listYears) {
+                const objectify = {
+                    year:listYears[year],
+                    type:listColumns[type],
+                    value: +data.filter(d => +d.year === listYears[year])[0][listColumns[type]]
+                };
+                dataset.push(objectify);
+            }
         }
 
-        const minYear = d3.min(sumYears,d => d.year);
-        const maxYear = d3.max(sumYears,d => d.year);
+        const nestData = d3.nest()
+            .key(d => d.type)
+            .entries(dataset);
+
+        const minYear = d3.min(dataset,d => d.year);
+        const maxYear = d3.max(dataset,d => d.year);
+        const maxValue = d3.max(dataset,d => d.value);
+        const listColors = ['#FF8C00','#FFA500'];
 
         // setting up scales
         const scaleX = d3.scaleTime()
             .domain([parseTimeYear(minYear),parseTimeYear(maxYear)])
             .range([0,w]);
         const scaleY = d3.scaleLinear()
-            .domain([0,d3.max(sumYears, d => d.sum)])
+            .domain([0,maxValue])
             .range([h,0]);
+        const colorScale = d3.scaleOrdinal()
+            .domain(listColumns)
+            .range(listColors);
+        const colorScaleInvert = d3.scaleOrdinal()
+            .domain(listColumns)
+            .range(listColors.reverse());
+        const dictType = d3.scaleOrdinal()
+            .domain(listColumns)
+            .range(['campaign donations','lobbying']);
 
         // setting up line generator path
         const line = d3.area()
             .x(d => scaleX(parseTimeYear(+d.year)))
-            .y(d => scaleY(d.sum))
+            .y(d => scaleY(+d.value))
             .curve(_curve);
 
         const area = d3.area()
             .x(d => scaleX(parseTimeYear(+d.year)))
             .y0(d => scaleY(0))
-            .y1(d => scaleY(d.sum))
+            .y1(d => scaleY(+d.value))
             .curve(_curve);
 
         // appending <g> to plot
         // individual <g> for areas
         // enter-exit-update pattern
         // update selection
-        let groupUpdate = plotUpdate.selectAll('.line-wrapper')
-            .data([sumYears]);
+        let lineWrapperUpdate = plotUpdate.selectAll('.line-wrapper')
+            .data(nestData);
         // enter selection
-        const groupEnter = groupUpdate.enter()
+        const lineWrapperEnter = lineWrapperUpdate.enter()
             .append('g');
         // exit selection
-        groupUpdate.exit().remove();
+        lineWrapperUpdate.exit().remove();
         // update + enter selection
-        groupUpdate = groupUpdate.merge(groupEnter)
-            .classed('line', true);
+        lineWrapperUpdate = lineWrapperUpdate.merge(lineWrapperEnter)
+            .classed('line-wrapper', true);
+
+        let areaWrapperUpdate = plotUpdate.selectAll('.area-wrapper')
+            .data(nestData);
+        // enter selection
+        const areaWrapperEnter = areaWrapperUpdate.enter()
+            .append('g');
+        // exit selection
+        areaWrapperUpdate.exit().remove();
+        // update + enter selection
+        areaWrapperUpdate = areaWrapperUpdate.merge(areaWrapperEnter)
+            .classed('area-wrapper', true);
 
         // appending paths to groups
-        let lineUpdate = groupUpdate.selectAll('.area-chart')
-            .data(d => [d]);
-        const lineEnter = lineUpdate.enter()
-            .append('path');
-        lineUpdate = lineUpdate.merge(lineEnter)
-            .classed('area-chart', true)
-            .attr('d', area)
-            .style('fill', '#FFA500')
-            .style('fill-opacity',0.5);
-
-        let areaUpdate = groupUpdate.selectAll('.line-chart')
-            .data(d => [d]);
+        let areaUpdate = areaWrapperUpdate.selectAll('.area-chart')
+            .data(d => [d.values]);
         const areaEnter = areaUpdate.enter()
             .append('path');
         areaUpdate = areaUpdate.merge(areaEnter)
+            .classed('area-chart', true)
+            .attr('d', area)
+            .style('fill', d => colorScale(d[0].type))
+            .style('fill-opacity',0.5);
+
+        let lineUpdate = lineWrapperUpdate.selectAll('.line-chart')
+            .data(d => [d.values]);
+        const lineEnter = lineUpdate.enter()
+            .append('path');
+        lineUpdate = lineUpdate.merge(lineEnter)
             .classed('line-chart', true)
             .attr('d', line)
-            .style('stroke', '#FFA500')
+            .style('stroke', d => colorScale(d[0].type))
             .style('stroke-width',2)
             .style('fill', 'none')
             .style('fill-opacity',0);
-
+        //
         //Set up axis generator
         const axisY = d3.axisLeft()
             .scale(scaleY)
             .tickSize(-w)
-            .ticks(5)
+            .ticks(6)
             .tickFormat(d => formatMillionsMoney(d));
 
         const axisX = d3.axisBottom()
@@ -161,10 +193,11 @@ function LineChart(_) {
         axisYNode.merge(axisYNodeEnter)
             .attr('transform',`translate(${0},${0})`)
             .call(axisY);
+        //
+        // plotUpdate.select('.axis-y')
+        //     .select('.tick:first-of-type')
+        //     .style('opacity',_axisOpacity);
 
-        plotUpdate.select('.axis-y')
-            .select('.tick:first-of-type')
-            .style('opacity',_axisOpacity);
     }
 
     // create getter-setter pattern for customization
@@ -180,4 +213,4 @@ function LineChart(_) {
 }
 
 // exporting factory function as default
-export default LineChart;
+export default LinesChart;
