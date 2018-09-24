@@ -1,4 +1,4 @@
-scope,year,added,disposed,pending,temp order denied,temp order granted,final order denied,final order granted,total denied,total,%final order granted,%total denied,%pending
+scope,year,added,disposed,pending,temp order denied,temp order granted,final order denied,final order granted,total denied,total,pct final order granted,pct total denied,pct pending
 statewide,2013,3476,3497,99,767,2718,1604,1114,2371,3584,0.31082589285714285,0.6615513392857143,0.027622767857142856
 statewide,2014,3365,3330,143,782,2538,1446,1092,2228,3463,0.31533352584464336,0.6433727981518914,0.0412936760034652
 statewide,2015,3208,3186,147,775,2394,1290,1104,2065,3316,0.33293124246079614,0.6227382388419783,0.044330518697225575
