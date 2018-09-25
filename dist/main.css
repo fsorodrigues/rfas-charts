@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:300,700);
+h1 {
+    margin-left: 1rem;
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+
 .wrapper-d3 {
     position: relative;
     font-family: 'Roboto', Verdana, sans-serif;
@@ -57,12 +62,14 @@
 }
 
 .wrapper-tooltip-map-d3 {
+    background-color: white; /* fallback color */
     background-color: hsla(0,100%,100%,0.9);
     font-family: 'Roboto', Verdana, sans-serif;
     font-size: 0.7rem;
     position: absolute;
     padding: 1rem;
     pointer-events: none;
+    opacity:0;
 }
 
 .wrapper-tooltip-map-d3 table {
