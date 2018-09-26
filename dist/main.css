@@ -12,10 +12,42 @@ h1 {
 }
 
 .wrapper-d3.wrapper-bars-d3 {
-    position: relative;
+}
+
+.wrapper-map-grid {
+    display: flex;
+    flex-direction: row;
 }
 
 .wrapper-d3.wrapper-map-d3 {
+    width:75%;
+}
+
+.wrapper-text-map-d3 {
+    width:25%;
+}
+
+.wrapper-map-grid .text-note-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper-map-grid span.text-note-body {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 0.7rem;
+}
+
+@media(max-width:600px) {
+    .wrapper-map-grid {
+        flex-direction: column;
+    }
+
+    .wrapper-d3.wrapper-map-d3 {
+        width:100%;
+    }
+
+    .wrapper-text-map-d3 {
+        width:100%;
+    }
 }
 
 .wrapper-d3.wrapper-line-d3 {
